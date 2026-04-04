@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TIMESTAMP=$(year)
+TIMESTAMP=$(date)
 
 
 NUMBER1=100
