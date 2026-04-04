@@ -5,6 +5,7 @@ PERSON2=Musk
 
 
 echo "$PERSON1:: hey $PERSON2, how are you?"
-echo "$PERSON2:: HELLO $PERSON1, i am fine. how are doing"
-echo "$PERSON1:: i am fine too .what'up?"
-echo "$PERSON1::nothing"
+echo "$PERSON2:: hello $PERSON1, i am fine. how are you doing"
+echo "$PERSON1:: i am fine too .what's up?"
+echo "$PERSON1:: nothing "
+ 
