@@ -2,8 +2,8 @@
 
 MOVIES=("Court" "HIT3" "PUSHPA2" "RRR")
 
-#echo "First Movie: ${MOVIES[0]}"
-#echo "last Movie: ${MOVIES[3]}"
-echo "First Movie: ${MOVIES[4]}"
+echo "First Movie: ${MOVIES[0]}"
+echo "last Movie: ${MOVIES[3]}"
+echo "First Movie: ${MOVIES[2]}"
 
-#echo "All movies: ${MOVIES[@]}"
+echo "All movies: ${MOVIES[@]}"
