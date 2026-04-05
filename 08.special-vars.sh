@@ -2,7 +2,7 @@
 
 echo "All variables passed to the script: $@"
 
-echo "Number of variables: $@"
+echo "Number of variables: $#"
 
 echo "Script name: $0"
 echo "Current Directory: $PWD"
