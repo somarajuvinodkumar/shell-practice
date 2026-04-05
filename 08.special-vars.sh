@@ -2,9 +2,9 @@
 
 echo "All variables passed to the script: $@"
 
-echo "Number of variables: $#"
+echo "Number of variables: $1"
 
-echo "Script name: $2"
+echo "Script name: $0"
 echo "Current Directory: $PWD"
 echo "User running this script: $USER"
 echo "Home directory of user: $HOME"
