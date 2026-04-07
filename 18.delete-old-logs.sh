@@ -33,8 +33,8 @@ VALIDATE(){
     fi
 }
 
-echo "Script started executing at $(date)" | tee -a 
-
+echo "Script started executing at $(date)" | tee -a $LOG_FILE
+    else
 FILES_TO_DELETE=$(find $SOURCE_DIR -name "*.log" -mtime +14)
 
 while IFS= read -r filepath
